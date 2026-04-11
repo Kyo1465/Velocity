@@ -17,3 +17,109 @@ p {
     line-height: 1.8;
 
 }
+
+/* ------------------ HEADER ------------------*/
+
+.header {
+    padding: 20px 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+    background-color: #fff;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #69B9FF;
+}
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav li + li {
+    margin-left: 40px;
+}
+
+.header__nav a {
+    font-size: 16px;
+    color: #676770;
+
+}
+
+.header__nav a:hover {
+    color: #0082F3;
+}
+
+/* ------------------ WELCOME ------------------*/
+
+.welcome {
+    min-height: 600px;
+    padding: 195px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #26282F;
+    background-image: url("img/welcome.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome__heading {
+    margin-top: 55px;
+    margin-bottom: 100px;
+    font-size: 59px;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.welcome__links > * + * {
+    margin-left: 20px;
+}
+.link-primary {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 11px 30px;
+    display: inline-block;
+    background-color: #69B9FF;
+    transition: background-color 0.1s;
+}
+
+.link-primary:hover {
+    background-color: #7AC1FF;
+}
+
+.link-primary:active {
+    background-color: #1994FF;
+}
+
+.link {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.link:hover {
+    border: 1px solid #ffffff8f;
+    color: #ffffff8f;
+    transition: 0.1s;
+}
+
+
