@@ -18,6 +18,26 @@ p {
 
 }
 
+.title {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 5;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 17px;
+}
+.subtitle {
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #6A859C;
+}
+
+.title-wrapper {
+    margin-bottom: 60px;
+}
+
 /* ------------------ HEADER ------------------*/
 
 .header {
@@ -122,4 +142,37 @@ p {
     transition: 0.1s;
 }
 
+/* ------------------ ABOUT ------------------ */
 
+.about {
+    
+}
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+}
+.about .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.about .card {
+    padding: 35px 15px 25px;
+    width: 300px;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+}
+
+.about .card img {
+    margin-bottom: 20px;
+    width: 94px;
+    height: 94px;
+    object-fit: contain;
+}
+.about .card h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #676770;
+}
