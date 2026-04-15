@@ -197,9 +197,6 @@ p {
 
 /* ------------------ SERVICES ------------------ */
 
-.services {
-
-}
 .services .cards-wrapper {
     display: flex;
     justify-content: space-between;
