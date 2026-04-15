@@ -165,9 +165,7 @@ p {
 
 /* ------------------ ABOUT ------------------ */
 
-.about {
-    
-}
+
 
 .about .cards-wrapper {
     display: flex;
@@ -197,6 +195,9 @@ p {
 
 /* ------------------ SERVICES ------------------ */
 
+
+
+
 .services .cards-wrapper {
     display: flex;
     justify-content: space-between;
@@ -216,4 +217,111 @@ p {
 }
 .services .link {
     margin-top: 15px;
+}
+
+/* ------------------ TAB SECTION ------------------ */
+
+
+.tabs__nav {
+    margin-bottom: 50px;
+}
+.tabs__nav button.active {
+    background-color: #2E80B6;
+}
+
+.tabs__nav button {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #92A0AD;
+    border-radius: 4px;
+    padding: 1px 30px;
+}
+.tabs__nav button + button {
+    margin-left: 15px;
+}
+
+.tabs__item img {
+    margin-bottom: 15px;
+}
+.tabs__item h4 {
+    margin-bottom: 15px;
+    font-size: 31px;
+    line-height: 1;
+    color: #676770;
+}
+.tabs__desc {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------------ FOOTER ------------------ */
+
+.footer__desc {
+    padding: 35px 0;
+}
+
+.footer__desc-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__desc-container > * {
+    width: 30%;
+}
+
+.footer__desc a {
+    font-size: 13px;
+    color: #668CAD;
+}
+.footer__desc li {
+    height: 30px;
+    position: relative;
+}
+
+.footer__desc li::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #D5D5E0;
+}
+
+.footer__desc li + li {
+    margin-top: 6px;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+
+.footer__social li::before {
+    width: calc(100% - 34px);
+}
+
+.footer__social img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.footer__copy {
+    background-color: #383838;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer__copy p{
+    color: #9E9E9E;
 }
