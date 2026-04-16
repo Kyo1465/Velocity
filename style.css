@@ -238,6 +238,26 @@ p {
     border-radius: 4px;
     padding: 1px 30px;
 }
+
+.tabs__nav button.active:hover {
+    background-color: #69ADD9;
+    transition: 0.1s;
+}
+.tabs__nav button.active:active {
+    background-color: #2972A2;
+    transition: 0.1s;
+}
+
+.tabs__nav button:hover {
+    background-color: #AAB5BF;
+    transition: 0.1s;
+}
+
+.tabs__nav button:active {
+    background-color: #7E8E9E;
+    transition: 0.1s;
+}
+
 .tabs__nav button + button {
     margin-left: 15px;
 }
